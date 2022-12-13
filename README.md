@@ -1,10 +1,10 @@
 # Web-Development-Project-College-Predictor
-<br /> A college predictor website which helps students with information regarding colleges, their entrance exams and streams
-The website consists of
-Login page
-Home page
-College predictor page
-Stream selector page 
-Cut off page
-BTech college info page
-Subscription page
+A college predictor website which helps students with information regarding colleges, their entrance exams and streams.
+<br /> The website consists of
+<br /> Login page
+<br /> Home page
+<br /> College predictor page
+<br /> Stream selector page 
+<br /> Cut off page
+<br /> BTech college info page
+<br /> Subscription page
