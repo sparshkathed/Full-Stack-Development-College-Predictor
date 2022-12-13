@@ -1,0 +1,230 @@
+ body {
+     background-image: url("clg4.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     object-fit: cover;
+     margin: 0px;
+     overflow: hidden;
+ }
+
+ .top {
+     position: absolute;
+     top: 0px;
+     border: none;
+     width: 100%;
+     text-align: center;
+     border-bottom: 1px solid black;
+     background-color: rgb(57, 54, 54);
+     box-shadow: 0px 0px 3px rgb(220, 215, 215);
+ }
+
+ h1 {
+     text-align: left;
+     margin-left: 15px;
+     color: whitesmoke;
+ }
+
+ #links {
+     position: absolute;
+     top: 4px;
+     right: 10px;
+     font-size: 20px;
+ }
+
+ a {
+     text-decoration: none;
+     padding: 7px;
+     color: rgb(243, 235, 235);
+ }
+
+ a:hover {
+     box-shadow: 0px 1px 2px black;
+ }
+
+ .cover {
+     /* position: absolute;
+      top: 80px; */
+     border: none;
+     background-color: rgba(240, 248, 255, 0.306);
+     width: 100%;
+     height: 620px;
+ }
+
+ /* h2 {
+      color: white;
+      background-color: rgb(64, 59, 59);
+      height: 40px;
+      width: 300px;
+      text-align: center;
+      padding: 10px;
+      margin-left: 40%;
+      margin-top: 15%;
+    } 
+    h2:hover {
+      box-shadow: 0px 0px 5px white;
+    }*/
+ .img-slider {
+     position: absolute;
+     top: 80px;
+     width: 98.5%;
+     height: 510px;
+     margin: 10px;
+    background-color: rgba(240, 248, 255, 0.237);
+ }
+
+ .img-slider .slide {
+     z-index: 1;
+     position: absolute;
+     width: 100%;
+     clip-path: circle(0% at 0 50%);
+ }
+img{
+    height:510px;
+    width:98.5%;
+    object-fit:fill;
+
+    
+}
+ .img-slider .slide.active {
+     clip-path: circle(150% at 0 50%);
+     transition: 2s;
+     transition-property: clip-path;
+ }
+
+ .img-slider .slide img {
+     z-index: 1;
+     width: 100%;
+     border-radius: 5px;
+ }
+
+ .img-slider .slide .info {
+     position: absolute;
+     top: 0;
+     padding: 15px 30px;
+ }
+
+ .img-slider .slide .info h2 {
+     color:white;
+     font-size: 45px;
+     text-transform: uppercase;
+     font-weight: 800;
+     letter-spacing: 2px;
+ }
+
+ .img-slider .slide .info p {
+     color:white;
+     background: rgba(0, 0, 0, 0.1);
+     font-size: 16px;
+     width: 60%;
+     padding: 10px;
+     border-radius: 4px;
+ }
+
+ .img-slider .navigation {
+     z-index: 2;
+     position: absolute;
+     display: flex;
+     bottom: 30px; 
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .img-slider .navigation .btn {
+     background: rgba(255, 255, 255, 0.5);
+     width: 12px;
+     height: 12px;
+     margin: 10px;
+     border-radius: 50%;
+     cursor: pointer;
+ }
+
+ .img-slider .navigation .btn.active {
+     background: #2696e9;
+     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+ }
+
+ @media (max-width: 820px) {
+     .img-slider {
+         width: 600px;
+         height: 375px;
+     }
+
+     .img-slider .slide .info {
+         padding: 10px 25px;
+     }
+
+     .img-slider .slide .info h2 {
+         font-size: 35px;
+     }
+
+     .img-slider .slide .info p {
+         width: 70%;
+         font-size: 15px;
+     }
+
+     .img-slider .navigation {
+         bottom: 25px;
+     }
+
+     .img-slider .navigation .btn {
+         width: 10px;
+         height: 10px;
+         margin: 8px;
+     }
+ }
+
+ @media (max-width: 620px) {
+     .img-slider {
+         width: 400px;
+         height: 250px;
+     }
+
+     .img-slider .slide .info {
+         padding: 10px 20px;
+     }
+
+     .img-slider .slide .info h2 {
+         font-size: 30px;
+     }
+
+     .img-slider .slide .info p {
+         width: 80%;
+         font-size: 13px;
+     }
+
+     .img-slider .navigation {
+         bottom: 15px;
+     }
+
+     .img-slider .navigation .btn {
+         width: 8px;
+         height: 8px;
+         margin: 6px;
+     }
+ }
+
+ @media (max-width: 420px) {
+     .img-slider {
+         width: 320px;
+         height: 200px;
+     }
+
+     .img-slider .slide .info {
+         padding: 5px 10px;
+     }
+
+     .img-slider .slide .info h2 {
+         font-size: 25px;
+     }
+
+     .img-slider .slide .info p {
+         width: 90%;
+         font-size: 11px;
+     }
+
+     .img-slider .navigation {
+         bottom: 10px;
+     }
+ }

@@ -1,0 +1,35 @@
+#frm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+    margin-top:10rem
+}
+
+.items{
+    background-color: bisque;
+    border:2px solid rgb(207, 122, 18);
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin:10px;
+}
+
+.btn{
+    padding:10px;
+    background-color: bisque;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.btn:hover{
+    padding:15px;
+}
