@@ -1,5 +1,5 @@
 # Web-Development-Project-College-Predictor
-A college predictor website which helps students with information regarding colleges, their entrance exams and streams
+<br /> A college predictor website which helps students with information regarding colleges, their entrance exams and streams
 The website consists of
 Login page
 Home page
